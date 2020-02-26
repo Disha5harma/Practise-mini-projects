@@ -1,0 +1,29 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    height:100vh;
+    flex-direction: column;
+    font-family: sans serif;
+    background-color: blue;
+    color:white;
+}
+.location{
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.temperature{
+    display: flex;
+    align-items: center;
+}
+.degree{
+    font-size: 30px;
+    cursor: pointer;
+}
