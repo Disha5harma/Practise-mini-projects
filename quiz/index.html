@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+<body>
+<h1>QUIZ</h1>    
+<form id="quiz" name="quiz">
+    <ol type="I">
+      <li>
+        What is the capital of India?<br>
+        <input type="text" name="q1" id="textbox">
+      </li> 
+      <li>
+          In which university you want to go to?<br>
+          <input type="radio" id="mc" name="q2" value="Harvard">Harvard<br>
+          <input type="radio" id="mc" name="q2" value="st">Stanford<br>
+     </li><br>
+     <li>
+         Will you give your best to crack their exam?<br>
+         <input type="radio" name="q3" id="mc" value="boolean">Yes<br>
+         <input type="radio" name="q3" id="mc" value="booleand">Confidently Yes<br>
+     </li><br> 
+     
+         <input type="button" id="button" value="Submit" onclick="check();">
+     
+    </ol>
+    
+</form>
+<div id="submit">
+    <p id="number_correct">Thanks for your vote</p>
+    <p id="ans"></p>
+    <img id="pic">
+    <p id="message"></p>
+    
+</div>
+</body>
+</html>

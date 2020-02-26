@@ -1,0 +1,27 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#input{
+    margin-bottom: 20px;
+    box-lines: hidden;
+}
+
+#quiz{
+    margin-left: 10px;
+    background-color: aqua;
+    padding: 10px 20px 10px 20px;
+    float:left;
+}
+
+#textbox{
+    height: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+
+#submit{
+    visibility: hidden;
+}
